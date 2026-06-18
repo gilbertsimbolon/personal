@@ -19,46 +19,17 @@
 </head>
 
 <body class="font-sans antialiased">
-    <div class="container">
-        <!-- Navbar -->
-        <div class="shadow px-4 object-fit-fill rounded-pill mt-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
 
-            <nav class="navbar navbar-expand-lg">
+    <!-- Navbar -->
+    @include('partials.navbar')
 
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/">bolonsite.</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <main>
+        @yield('content')
+    </main>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav nav justify-content-center w-100 fw-bold gap-3" style="font-size: 13px">
-                            <li class="nav-item">
-                                <a class="nav-link nav-hover" aria-current="page" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-hover" aria-current="page" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-hover" aria-current="page" href="#skills">Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-hover" aria-current="page" href="#projects">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-hover" aria-current="page" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <!-- Footer -->
+    @include('partials.footer')
 
-            </nav>
-
-        </div>
-
-        
-    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
