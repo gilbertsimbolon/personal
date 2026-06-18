@@ -58,7 +58,7 @@
                     <!-- Footer Mobile -->
                     <div class="mobile-footer mt-auto d-lg-none">
                         <p class="text-center text-muted mb-0">
-                            © 2026 <a href="https://instagram.com/gilbertsmbln" style="text-decoration: none;"
+                            &copy; {{ now()->year }} <a href="https://instagram.com/gilbertsmbln" style="text-decoration: none;"
                                 class="text-black">bolonsite.</a> All rights reserved.
                         </p>
                     </div>
