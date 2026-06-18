@@ -1,0 +1,29 @@
+/* nav */
+.nav-link.nav-hover {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link.nav-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0; /* Jarak underline dari teks */
+    width: 100%;
+    height: 2px;
+    background-color: #FF69B4;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+.nav-link.nav-hover:hover {
+    color: #ff4e92;
+}
+
+.nav-link.nav-hover:hover::after {
+    transform: scaleX(1);
+}
