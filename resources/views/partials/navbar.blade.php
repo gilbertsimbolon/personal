@@ -1,5 +1,5 @@
-<div class="container">
-    <div class="navbar-wrapper sticky-top shadow px-4 rounded-pill mt-3">
+<div class="container sticky-top" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+    <div class="navbar-wrapper shadow px-4 rounded-pill mt-3">
 
         <nav class="navbar navbar-expand-lg">
 

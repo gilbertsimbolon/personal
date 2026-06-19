@@ -3,7 +3,5 @@
 @section('title', 'bolonsite.')
 
 @section('content')
-    <section id="home" class="min-vh-100">
-        
-    </section>
+    @include('sections.home')
 @endsection

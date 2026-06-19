@@ -43,6 +43,8 @@
     <script>
         AOS.init();
     </script>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
 </body>
 
 </html>
