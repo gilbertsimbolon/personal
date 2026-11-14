@@ -1,6 +1,5 @@
 /* global */
 
-
 /* nav */
 .nav-link.nav-hover {
     position: relative;
@@ -62,6 +61,7 @@
 @media (max-width:991.98px) {
 
     .navbar-wrapper {
+        max-width: 100%;
         border-radius: 20px;
     }
 
