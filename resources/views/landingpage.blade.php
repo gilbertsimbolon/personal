@@ -3,5 +3,7 @@
 @section('title', env('APP_NAME'))
 
 @section('content')
-    @include('sections.home')
+    <div class="content">
+        @include('sections.home')
+    </div>
 @endsection

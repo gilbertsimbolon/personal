@@ -7,16 +7,16 @@
                 <div class="d-flex justify-content-center align-items-center gap-2">
                     <img src="{{ asset('img/profil.jpg') }}" class="rounded-circle object-fit-cover" width="36"
                         height="36" alt="Profil">
-                    <a class="navbar-brand fw-medium" href="/">B4tor.</a>
+                    <a class="navbar-brand fs-6" href="/">B4tor.</a>
                 </div>
 
                 <div class="d-flex align-items-center gap-1 order-lg-last">
                     <!-- Language -->
-                    <button class="btn btn-link nav-link p-2 fw-bold text-decoration-none" id="langToggle"
+                    <button class="btn-language btn btn-link nav-link p-2 fw-bold text-decoration-none" id="langToggle"
                         type="button" aria-label="Ganti Bahasa" style="font-size: 13px;" data-bs-container="body"
                         data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom"
                         data-bs-content="Sedang dalam tahap pengembangan.">
-                        EN
+                        ID
                     </button>
 
                     <!-- Theme -->
@@ -46,7 +46,7 @@
                     </div>
 
                     <!-- Menu -->
-                    <ul class="navbar-nav mx-auto fw-bold gap-lg-3" style="font-size: 15px">
+                    <ul class="navbar-nav mx-auto fw-small gap-lg-3" style="font-size: 15px">
 
                         <li class="nav-item">
                             <a class="nav-link nav-hover" href="#about">About</a>
