@@ -122,3 +122,27 @@
         padding-top: 20px;
     }
 }
+
+/* footer */
+.footer-icon {
+    color: #28301C;
+    /* Warna hijau gelap di mode terang */
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-icon:hover {
+    color: #28301C;
+    transform: translateY(-2px);
+    /* Efek naik sedikit saat disentuh/hover */
+}
+
+/* Mode Gelap */
+[data-bs-theme="dark"] .footer-icon {
+    color: #E8DCC4;
+    /* Warna krem di mode gelap */
+}
+
+[data-bs-theme="dark"] .footer-icon:hover {
+    color: #ffffff;
+    /* Lebih terang saat di-hover di mode gelap */
+}
