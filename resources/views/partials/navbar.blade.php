@@ -65,6 +65,10 @@
 
                 </div>
 
+                <button class="btn btn-link nav-link p-2" id="themeToggle" aria-label="Ganti Tema">
+                    <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
+                </button>
+
             </div>
 
         </nav>
