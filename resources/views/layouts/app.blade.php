@@ -13,9 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
 
-    <!-- Theme Bootstrap -->
-    <link rel="stylesheet" href="https://jsdelivr.net">
-
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 

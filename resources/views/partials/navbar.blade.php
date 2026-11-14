@@ -1,5 +1,5 @@
 <div class="container sticky-top" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
-    <div class="navbar-wrapper shadow px-2 rounded-pill mt-3">
+    <div class="navbar-wrapper bg-body shadow px-2 rounded-pill mt-3">
 
         <nav class="navbar navbar-expand-lg">
 
@@ -10,11 +10,24 @@
                     <a class="navbar-brand" href="/">B4tor.</a>
                 </div>
 
-                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav">
+                <div class="d-flex align-items-center gap-1 order-lg-last">
+                    <!-- Language -->
+                    <button class="btn btn-link nav-link p-2 fw-bold text-decoration-none" id="langToggle"
+                        type="button" aria-label="Ganti Bahasa" style="font-size: 13px;">
+                        EN
+                    </button>
 
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <!-- Theme -->
+                    <button class="btn btn-link nav-link p-2" id="themeToggle" type="button" aria-label="Ganti Tema">
+                        <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
+                    </button>
+
+                    <!-- Hamburger -->
+                    <button class="navbar-toggler border-0 shadow-none p-2 nav-link" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Menu Navigasi">
+                        <i class="bi bi-list fs-3"></i>
+                    </button>
+                </div>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <!-- Header Mobile -->
@@ -64,10 +77,6 @@
                     </div>
 
                 </div>
-
-                <button class="btn btn-link nav-link p-2" id="themeToggle" aria-label="Ganti Tema">
-                    <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
-                </button>
 
             </div>
 

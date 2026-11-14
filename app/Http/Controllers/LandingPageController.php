@@ -12,7 +12,7 @@ class LandingPageController extends Controller
         $jam = now()->hour;
 
         // logika waktu
-        if ($jam < 12){
+        if ($jam < 12) {
             $waktu = 'Pagi';
         } elseif ($jam < 15) {
             $waktu = 'Siang';

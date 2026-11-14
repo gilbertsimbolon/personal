@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'bolonsite.')
+@section('title', env('APP_NAME'))
 
 @section('content')
     @include('sections.home')
