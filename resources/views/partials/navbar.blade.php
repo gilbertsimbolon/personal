@@ -68,7 +68,9 @@
 
                     </ul>
 
-                    @include('partials.footer')
+                    <div class="mt-auto d-lg-none w-100">
+                        @include('partials.footer')
+                    </div>
 
                 </div>
 

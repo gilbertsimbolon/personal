@@ -1,4 +1,4 @@
-<div class="container overflow-hidden mt-auto d-lg-none">
+<div class="container overflow-hidden">
     <footer class="mt-5">
         <div class="shadow-sm p-3">
             <!-- Personal Contact -->
