@@ -1,15 +1,9 @@
-<div class="overflow-hidden">
+<div class="container overflow-hidden">
     <footer class="mt-5">
-        <div class="border rounded-5 shadow-sm p-2">
+        <div class="shadow-sm p-3">
 
-            <h3 class="fw-bold text-center">bolonsite.</h3>
-
-            <p class="text-center text-muted">
-                pangaranto na naeng sukses.
-            </p>
-
+            <!-- Personal Contact -->
             <div class="d-flex justify-content-center gap-3 fs-4">
-
                 <a href="https://github.com/gilbertsimbolon" target="_blank" class="text-dark">
                     <i class="bi bi-github"></i>
                 </a>
@@ -26,15 +20,11 @@
                     <i class="bi bi-envelope-fill"></i>
                 </a>
 
+                <a href="https://wa.me/6285399684844?text=Hai!%20Apakah%20betul%20dengan%20Gilbert?%20Saya%20ingin%20konsultasi%20terkait%20pembuatan%20website/sistem."
+                    target="_blank" class="text-dark">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
             </div>
-
-            <hr>
-
-            <p class="text-center text-muted">
-                &copy; {{ now()->year }} <a href="https://instagram.com/gilbertsmbln" style="text-decoration: none;"
-                    class="text-black">bolonsite.</a> All rights reserved.
-            </p>
-
         </div>
     </footer>
 </div>
