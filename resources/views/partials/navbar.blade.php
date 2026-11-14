@@ -15,7 +15,7 @@
                     <button class="btn btn-link nav-link p-2 fw-bold text-decoration-none" id="langToggle"
                         type="button" aria-label="Ganti Bahasa" style="font-size: 13px;" data-bs-container="body"
                         data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom"
-                        data-bs-content="under development.">
+                        data-bs-content="Sedang dalam tahap pengembangan.">
                         EN
                     </button>
 
