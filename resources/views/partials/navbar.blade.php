@@ -69,6 +69,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link nav-hover" href="#experience">Experience</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link nav-hover" href="#contact">Contact</a>
                         </li>
 
