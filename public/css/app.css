@@ -204,3 +204,45 @@
     font-family: 'Source Serif 4', Georgia, serif;
     font-style: italic;
 }
+
+/* education */
+.education-header-text {
+    --bs-body-font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+    list-style-type: none;
+    --bs-body-font-family: 'Source Serif 4', Georgia, serif;
+    font-family: 'Source Serif 4', Georgia, serif;
+}
+
+.timeline,
+.timeline .timeline-item {
+    list-style: none !important;
+    list-style-type: none !important;
+}
+
+.timeline .timeline-item::marker {
+    display: none !important;
+    content: '' !important;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 9px;
+    left: -38px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 90%);
+}

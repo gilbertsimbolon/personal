@@ -4,6 +4,7 @@
 
 @section('content')
     <div class="content">
-        @include('sections.home')
+        @include('sections.about')
+        @include('sections.education')
     </div>
 @endsection

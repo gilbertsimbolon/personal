@@ -1,4 +1,4 @@
-<section id="home" class="d-flex align-items-start py-4 py-md-5" style="padding-top: 1cm;">
+<section id="about" class="d-flex align-items-start py-4 py-md-5" style="padding-top: 1cm;">
 
     <div class="container">
         <div class="row align-items-center">

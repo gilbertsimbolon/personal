@@ -53,6 +53,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link nav-hover" href="#education">Education</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link nav-hover" href="#skills">Skills</a>
                         </li>
 
