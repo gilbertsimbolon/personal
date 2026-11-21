@@ -6,5 +6,6 @@
     <div class="content">
         @include('sections.about')
         @include('sections.education')
+        @include('sections.skills')
     </div>
 @endsection

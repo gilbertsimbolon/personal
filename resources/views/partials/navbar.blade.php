@@ -57,11 +57,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link nav-hover" href="#skills">Skills</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link nav-hover" href="#tools">Tools</a>
+                            <a class="nav-link nav-hover" href="#loadout">Loadout</a>
                         </li>
 
                         <li class="nav-item">

@@ -1,5 +1,5 @@
 <section id="education" class="d-flex align-items-start">
-    <div class="container min-vh-100">
+    <div class="container">
         <div data-aos="fade-right" data-aos-duration="1500">
             <h1 class="fw-medium fs-1 education-header-text">Education</h1>
         </div>
